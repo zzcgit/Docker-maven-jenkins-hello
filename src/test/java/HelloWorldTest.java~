@@ -1,0 +1,16 @@
+package com.zzc.mvnlearn.helloworld;
+
+import static org.junit.Assert.assertEquals;
+import org.junit.Test;
+
+public class HelloWorldTest
+{
+	@Test
+	public void testSayHello()
+	{
+		HelloWorld helloWorld=new helloWorld();
+		String result=helloWorld.sayHello();
+		assertEquals("Hello Maven!",result);
+
+	}
+}
